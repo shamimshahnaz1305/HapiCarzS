@@ -1,65 +1,78 @@
-
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HapicarzS | Car Rental Services</title>
+  <meta charset="UTF-8">
+  <title>HapicarzS | Car Rental in Dhubri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f8f9fa; color:#333; }
-    header { background:#0d6efd; color:#fff; padding:16px 24px; }
-    header h1 { margin:0; }
-    nav a { color:#fff; margin-right:16px; text-decoration:none; font-weight:500; }
-    .hero { padding:60px 24px; text-align:center; background:#e9f1ff; }
-    .hero h2 { font-size:36px; margin-bottom:12px; }
-    .hero p { font-size:18px; margin-bottom:24px; }
-    .hero button { padding:12px 24px; font-size:16px; background:#0d6efd; color:#fff; border:none; border-radius:6px; cursor:pointer; }
-    .section { padding:48px 24px; max-width:1100px; margin:auto; }
-    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:24px; }
-    .card { background:#fff; padding:24px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
-    .card h3 { margin-top:0; }
-    footer { background:#222; color:#ccc; padding:24px; text-align:center; }
+    body { margin:0; font-family:Arial, sans-serif; background:#f8f9fa; }
+    header { background:#0d6efd; color:white; padding:15px; text-align:center; }
+    section { padding:20px; }
+    h2 { color:#0d6efd; }
+    .card { background:white; padding:15px; margin-bottom:15px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    button { background:#25D366; color:white; border:none; padding:12px 18px; font-size:16px; border-radius:6px; cursor:pointer; }
+    footer { background:#222; color:#ccc; text-align:center; padding:10px; font-size:14px; }
+    .whatsapp-float {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:14px 18px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>HapicarzS</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Cars</a>
-      <a href="#">Self Drive</a>
-      <a href="#">With Driver</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>  <section class="hero">
-    <h2>Rent a Car Anytime, Anywhere</h2>
-    <p>Self-drive or with driver • Affordable • Easy booking</p>
-    <button>Book a Car</button>
-  </section>  <section class="section">
-    <h2>Our Services</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>🚗 Self Drive</h3>
-        <p>Drive on your own terms with well-maintained cars.</p>
-      </div>
-      <div class="card">
-        <h3>🧑‍✈️ With Driver</h3>
-        <p>Professional drivers for comfortable and safe travel.</p>
-      </div>
-      <div class="card">
-        <h3>💰 Affordable Pricing</h3>
-        <p>Transparent pricing with no hidden charges.</p>
-      </div>
-    </div>
-  </section>  <section class="section">
-    <h2>Why Choose HapicarzS?</h2>
-    <ul>
-      <li>Easy online booking</li>
-      <li>Clean and verified cars</li>
-      <li>24/7 customer support</li>
-      <li>Perfect for local & outstation trips</li>
-    </ul>
-  </section>  <footer>
-    <p>© 2026 HapicarzS. All rights reserved.</p>
-  </footer>
+
+<header>
+  <h1>HapicarzS</h1>
+  <p>🚗 Car Rental Service in Dhubri</p>
+  <p>Self Drive & With Driver Available</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+
+  <div class="card">
+    <h3>🚗 Self Drive Cars</h3>
+    <p>Drive yourself with full freedom and privacy.</p>
+  </div>
+
+  <div class="card">
+    <h3>🧑‍✈️ With Driver</h3>
+    <p>Professional drivers for safe and comfortable travel.</p>
+  </div>
+
+  <div class="card">
+    <h3>📍 Service Area</h3>
+    <p>Dhubri & nearby locations (local and outstation).</p>
+  </div>
+</section>
+
+<section>
+  <h2>Book a Car Now</h2>
+  <p>Click the button below to book instantly on WhatsApp.</p>
+
+  <a href="https://wa.me/918099277414?text=Hello%20HapicarzS,%20I%20want%20to%20book%20a%20car%20in%20Dhubri.%20Please%20share%20details."
+     target="_blank">
+    <button>📲 Book on WhatsApp</button>
+  </a>
+</section>
+
+<footer>
+  © 2026 HapicarzS | Dhubri, Assam  
+  <br>Call / WhatsApp: 8099277414
+</footer>
+
+<a class="whatsapp-float"
+   href="https://wa.me/918099277414?text=Hello%20HapicarzS,%20I%20want%20to%20book%20a%20car."
+   target="_blank">
+  💬 WhatsApp
+</a>
+
 </body>
 </html>
